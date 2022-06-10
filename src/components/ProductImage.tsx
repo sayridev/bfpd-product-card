@@ -7,6 +7,7 @@ export interface Props {
   className?: string;
   style?: React.CSSProperties;
 }
+
 export const ProductImage = ({ img, className, style }: Props) => {
   const { product } = useContext(ProductContext);
   let imgToShow: string;
